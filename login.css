@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header style  */
+.header{
+    height: 800px;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header style end */
+/* navbar style start */
+.navbar{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lobster', sans-serif;
+    
+
+
+}
+span{
+    color: rgb(243, 43, 216);
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+}
+li a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+}
+.btn-primary{
+    background-color: rgb(253, 93, 213);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 15px;
+
+}
+.btn-primary:hover{
+    color: black;
+}
+/* navbar style end */
+/* banner contant style start */
+.form-container{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 10px;
+}
+p{font-size: 28px;
+    text-align: left;
+    margin-top: 20px;
+}
+input{
+    display: block;
+    width: 450px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    margin-bottom: 30px;
+   
+}
+.btn-primary{
+   margin-top: 20px;
+   background-color: rgb(255, 35, 204);
+   border: none;
+   padding: 10px 50px;
+   font-size: 24px;
+   font-weight: 700;
+   color: white;
+   border-radius: 5px;
+}
